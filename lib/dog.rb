@@ -1,11 +1,11 @@
 # Your code goes here!
 require 'pry'
 class Dog
-  def initialize(name)
+  def name=(name)
+    @name = name
     
 end
  
-fido = Dog.new
-fido.name = "Fido"
+
 
 
